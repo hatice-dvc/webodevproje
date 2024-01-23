@@ -1,0 +1,261 @@
+.navbar-bg{
+    background-color: rgb(93,62,188);
+}
+
+.img{
+    width: 50px;
+}
+
+.navbarInput{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.nb-location{
+    color: white !important;
+}
+
+
+.my-card{
+    width: 230px;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+    color: black;
+}
+
+
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-box {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.greeting {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.greeting-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-header_tabs {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.login-button {
+    flex: 1;
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #ebf0f6;
+}
+
+.full-width-mor-background {
+    background-color: rgb(90, 80, 166);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.full-width-text {
+    margin: 0;
+}
+
+.login-form q-input {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.login-form q-input i {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.additional-options {
+    margin-top: 20px;
+}
+
+.before-after-style {
+    color: #6d6d6d;
+}
+
+.before-after-style::before,
+.before-after-style::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-button+.social-button {
+    margin-left: 10px;
+}
+
+.social-button {
+    height: 50px;
+    width: 500px;
+    background-color: #ffffff;
+    color: #766262;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-button:hover {
+    background-color: #ffffff;
+}
+
+.custom-button-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-button {
+    height: 75px;
+    width: 100%;
+    background-color: #f7fbf7;
+    color: #3a3939;
+    padding-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #e2ede2;
+}
+
+.phone-input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.card-header {
+    height: 30px;
+    width: 360px;
+    background-color: #faeefb;
+    color: #696569;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    margin-right: 8px;
+    /* Resim ile metin arasındaki boşluğu ayarlamak için */
+}
+
+/* Resmin genişliği, yüksekliği ve diğer stilleri burada ayarlanabilir */
+.icon img {
+    width: 20px;
+    /* Resmin genişliğini ayarlamak için */
+    height: 20px;
+    /* Resmin yüksekliğini ayarlamak için */
+    object-fit: cover;
+    /* Resmin boyutu ile orantılı olarak sığdırılmasını sağlamak için */
+}
+
+.card-header p {
+    margin: 0;
+    /* Yazının üstte kalan boşluğu kaldırmak için */
+}
+
+.container3 {
+    /* Diğer stiller burada */
+}
+
+.container3 p {
+    font-size: 14px;
+    /* Yazı boyutunu ayarlamak için */
+    color: #555;
+    /* Yazı rengini ayarlamak için */
+    line-height: 1.4;
+    /* Satır yüksekliğini ayarlamak için */
+    margin: 0;
+    /* Paragrafın dış boşluğunu sıfırlamak için */
+    /* Diğer stil ayarlarını ekleyebilirsiniz */
+}
+
+.container2 {
+    /* Diğer stiller burada */
+}
+
+.container2 p {
+    font-size: 14px;
+    /* Yazı boyutunu ayarlamak için */
+    color: #555;
+    /* Yazı rengini ayarlamak için */
+    line-height: 1.9;
+    /* Satır yüksekliğini ayarlamak için */
+    margin: 0;
+    /* Paragrafın dış boşluğunu sıfırlamak için */
+    /* Diğer stil ayarlarını ekleyebilirsiniz */
+}
+
+.container4 {
+    /* Diğer stiller burada */
+}
+
+.container4 p {
+    font-size: 12px;
+    /* Yazı boyutunu ayarlamak için */
+    color: #555;
+    /* Yazı rengini ayarlamak için */
+    line-height: 1.9;
+    /* Satır yüksekliğini ayarlamak için */
+    margin: 0;
+    /* Paragrafın dış boşluğunu sıfırlamak için */
+    /* Diğer stil ayarlarını ekleyebilirsiniz */
+}
